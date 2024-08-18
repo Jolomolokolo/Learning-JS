@@ -1,7 +1,18 @@
 let i = 0;
 
+
 while (i <= 100) {
-    if (i == 0) {
+    text = i.toString();
+    if (text.includes("3") && text.includes("7")) {
+        console.log("FizzBuzz");
+    }
+    else if (text.includes("3")) {
+        console.log("Fizz");
+    }
+    else if (text.includes("7")) {
+        console.log("Buzz");
+    }
+    else if (i == 0) {
         console.log(i);
     }
     else if (i % 3 == 0 && i % 7 == 0) {
