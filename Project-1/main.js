@@ -1,6 +1,6 @@
-"use strict";
-let name = "Max";
-let surname = "Mustermann";
-let age = "25";
+let i = 0;
 
-console.log("My name is:", name, surname, "and my age is:", age);
+while (i <= 100) {
+    console.log(i);
+    i++;
+}
