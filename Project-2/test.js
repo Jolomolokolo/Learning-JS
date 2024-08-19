@@ -1,9 +1,14 @@
-secret = Math.floor(Math.random() * 100) + 1;
-console.log(secret);
-
 let attempts = 0;
 let guess = undefined;
-let fail = 0;
+let repeat = 0;
+
+while (repeat < repeat + 1) {
+    secret = Math.floor(Math.random() * 100) + 1;
+    console.log(secret);
+    
+    let attempts = 0;
+    let guess = undefined;
+    let repeat = 0;
 
 while (attempts < 5 ) {
 
@@ -31,4 +36,5 @@ while (attempts < 5 ) {
 
 if (attempts == 5) {
     console.log("Sorry, you ran out of attempts! The secret number was " + secret);
+}
 }
